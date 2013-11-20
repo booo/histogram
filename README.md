@@ -19,7 +19,7 @@ It was created originally for use with webworkers.
 
 #### Example.
 
-
+```javascript
 	var histogram = require('./histogram')
 
 	var linspace = function linspace(a,b,n) {
@@ -48,7 +48,7 @@ It was created originally for use with webworkers.
 	for(var i = 0; i < data.length; i ++){
 		console.log('[' + data[i].x + ',' +  data[i].y + '],')
 	}
-
+```
 
 
 Run in node, it produces this distribution.
